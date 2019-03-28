@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+   
     <title>Portfolio - Kate Park</title>
 </head>
 <body>
-    <h1>Welcome to my Portfolio</h1>
+<div class="d-flex flex-row align-items-center justify-content-center vh-100 text-white">   
+    <ul class="nav ">
+        <li class="nav-item">
+            <a class="nav-link active" href="#about"><h4>: About Me</h4></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#skills"><h4>: Skills</h4></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#resume"><h4>: Resume</h4></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact"><h4>: Contact Me</h4></a>
+        </li>
+    </ul>
+</div>
+ 
+<!-- About Me -->
+<div class="d-flex  align-items-center justify-content-center text-success" id="about">
+   
+    <div class="p-2"><h1 class="text-center">{ About Me }</h1></div>
+    <div class="p-2">
+        <ul>
+            <li>Name: Kate Park</li>
+            <li>Desired Career: Web Developer (in progress to become a fullstack developer)</li>
+            <li>3 things I am excessively interested in: Tennis, programming, Comedy</li>
+        </ul> 
+    </div>       
+   
+</div>
+
+<!-- Skills -->
+<div class="d-flex flex-sm-row flex-column align-items-center justify-content-center" id="skills">    
+    <div class="p-2"><h1>{ Scripting Languages }</h1></div>
+    <div class="p-2">
+        <img src="img/html5-3384014_1280.png"  alt="html" width="100" class="rounded">
+    </div>
+     <div class="p-2">
+        <img src="img/javascript-736400_1280.png" id="js" alt="javaScript" width="100" class="rounded">
+    </div>
+    <div class="p-2">
+        <img src="img/background-attachment-3.png" alt="css3" width="100" class="rounded">
+    </div>
+    <div class="p-2">
+        <img src="img/0_g3ns8QALNBBH7CBA_.gif" alt="jQuery" width="100" class="rounded">
+    </div>
+    <div class="p-2">
+        <img src="img/php_PNG49.png" alt="php" width="100" class="rounded">
+    </div>
+</div>
+<div class="d-flex flex-row align-items-center justify-content-center" id="skills">  
+    <div class="p-2"><h1>{ Databases }</h1></div>
+    <div class="p-2">
+        <img src="img/1200px-MySQL.svg.png" alt="mysql" width="100" class="rounded">
+    </div>
+     <div class="p-2">
+        <img src="img/MongoDB-Logo-5c3a7405a85675366beb3a5ec4c032348c390b3f142f5e6dddf1d78e2df5cb5c.png" alt="mongodb" width="100" class="rounded">
+    </div>
+</div>
+
+<!-- About Me -->
+<div class="container-fluid" id="contact">
+    <div class="d-flex flex-row align-items-center justify-content-center my-25 text-success">
+    <h1 class="text-center">{ Contact Me }</h1>
+    </div>    
+</div>
+
+<!-- bootstrap & jquery scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/init.js"></script>
 </body>
 </html>

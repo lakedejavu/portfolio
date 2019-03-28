@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: beige;
+    font-family: 'PT Sans', sans-serif;
+    height: 100%;
+}
+.container{
+    height: 100%;
+}
+a, a:link{
+    color: darkslategray;
+}
+a:hover{
+    color: darkslategray;
+    border-bottom: 5px solid darkslategray;
+   
+}
+
+ul {
+    margin: 0; 
+    padding:0
+}
+
+#about{
+    background: darkslategray;
+    min-height: 300px;
+}
+#skills{
+    background: beige;
+    min-height: 300px;
+    color: darkslategray;
+    flex-wrap: wrap;
+}
+
+#contact{
+    background: darkslategray;
+    height: 500px;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    h4 {
+        font-size: 14px;
+    }
+}
+
+hr {
+margin-top: 1rem;
+margin-bottom: 1rem;
+border: 0;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#text-content{
+    margin: 10px auto;
+    width: 200px;
+    max-height: 300px;
+    padding: 20px;
+    background-color: azure;
+    overflow: hidden;
+    text-align: center;
+    
+}
+#text-content.open{
+    
+    max-height: 600px;
+}
